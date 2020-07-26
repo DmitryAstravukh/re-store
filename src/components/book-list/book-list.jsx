@@ -21,17 +21,18 @@ class BookList extends React.Component {
     const { books } = this.props;
 
     return (
-      <ul>
+      <div className='book-list'>
         {    
           books.map(book => {
             return (
-              <li key={book.id}>
+              <div className='col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 book-list_item'
+                  key={book.id}>
                 <BookListItem book={book} />
-              </li>
+              </div>
             ) 
           })
         }
-      </ul>
+      </div>
     )
   }  
   

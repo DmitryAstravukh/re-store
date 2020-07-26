@@ -1,0 +1,13 @@
+.book-list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.book-list_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

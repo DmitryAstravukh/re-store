@@ -1,0 +1,31 @@
+.book-list_img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.book-list_price{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.book-list_title{
+  font-size: 17px;
+  font-weight: bold;
+  color: darkslategray;
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.book-list_author{
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.add-to-cart{
+  margin-top: 15px;
+}
