@@ -1,5 +1,6 @@
 .shopping-cart-table {
-  margin-top: 45px;
+  max-width: 1366px;
+  margin: 45px auto 0 auto;
 }
 
 .shopping-cart-table .total {
