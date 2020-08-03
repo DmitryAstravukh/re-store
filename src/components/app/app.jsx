@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import ShopHeader from './../shop-header';
-import ShoppingCartTable from './../shopping-cart-table';
+
 import './app.css';
 
 import { HomePage, CartPage } from './../pages';
@@ -14,7 +14,6 @@ const App = () => {
         <Route path='/' component={HomePage} exact />
         <Route path='/cart' component={CartPage} />
       </Switch>
-      <ShoppingCartTable />
     </main> 
   )
 }
